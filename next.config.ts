@@ -7,7 +7,6 @@ import type { NextConfig } from 'next';
  * @see {@link https://nextjs.org/docs/app/api-reference/config/next-config-js}
  */
 const nextConfig: NextConfig = {
-  output: 'standalone',
   distDir: 'dist',
   devIndicators: false,
   transpilePackages: ['@t3-oss/env-nextjs'],

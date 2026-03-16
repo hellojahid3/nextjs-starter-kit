@@ -16,10 +16,4 @@ export const websiteMetadata: Metadata = {
   authors: [],
   category: 'Starter Kit',
   keywords: ['Boilerplate', 'Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
 };
