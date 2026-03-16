@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Local",
+      "runtimeExecutable": "next",
+      "cwd": "${workspaceFolder}",
+      "args": ["dev"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Build",
+      "runtimeExecutable": "next",
+      "cwd": "${workspaceFolder}",
+      "args": ["build"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Preview",
+      "runtimeExecutable": "next",
+      "cwd": "${workspaceFolder}",
+      "args": ["start"]
+    }
+  ]
+}
