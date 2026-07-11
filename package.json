@@ -1,7 +1,7 @@
 {
-  "name": "personal-website",
+  "name": "next-starter-kit",
   "version": "1.0.1",
-  "description": "Personal website of Jahid Hasan",
+  "description": "A starter kit for Next.js projects",
   "private": true,
   "author": "Jahid Hasan <hellojahid3@gmail.com>",
   "scripts": {
