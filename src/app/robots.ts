@@ -1,10 +1,10 @@
 import type { MetadataRoute } from 'next';
 
-import { getBaseUrl } from '@/lib/get-base-url';
+import { env } from '@/env';
 
 export const dynamic = 'force-static';
 
-const APP_URL = getBaseUrl();
+const APP_URL = env.NEXT_PUBLIC_APP_URL;
 
 export default function robots(): MetadataRoute.Robots {
   return {
